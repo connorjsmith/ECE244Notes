@@ -30,11 +30,16 @@ FirstOfJuly.month = 7;
 
 //Class is sort of like a template
 
-//Missing definitions of functions inside of the classes
 
 
+
+//class functions~~
 
 //You can set the body of the functions outside of the classes
 void DayOfYear::setDay(int d){...} //need the class name for scoping reasons. Prevents ambiguity
 void DayOfYear::setMonth (int m){...}
 void DayOfYear::print () {...}
+
+//These functions are allowed to access object variables, because they can NEVER be 
+//called without first instantiating the object -> its variables are now available
+

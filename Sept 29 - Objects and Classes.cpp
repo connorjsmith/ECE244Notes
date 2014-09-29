@@ -29,3 +29,12 @@ FirstOfJuly.month = 7;
 //FirstOfJuly is called an OBJECT not a class or a variable.
 
 //Class is sort of like a template
+
+//Missing definitions of functions inside of the classes
+
+
+
+//You can set the body of the functions outside of the classes
+void DayOfYear::setDay(int d){...} //need the class name for scoping reasons. Prevents ambiguity
+void DayOfYear::setMonth (int m){...}
+void DayOfYear::print () {...}

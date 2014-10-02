@@ -39,3 +39,16 @@ if (flag){
 	DayofYear newyear;
 }
 //Destructor called here on newyear;
+
+
+
+//Special Pointer
+void DayofYear::setDay(int d){
+	day = d;
+}
+
+void DayofYear::setDay (int d){
+	(*this).day = d; // Equivalent to above.
+}
+
+
